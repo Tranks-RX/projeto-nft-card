@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    padding: 100px;
+    font-family: 'Outfit';
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 25px;
+    width: 270px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 15px 40px hsl(215, 56%, 11%);
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-principal{
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#view{
+    position: absolute;
+    padding: 106px;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+#view:hover{
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    cursor: pointer;
+}
+
+.texto h1{
+    font-size: 21px;
+    font: weight 600px;
+    color: hsl(178, 100%, 50%);
+}
+
+.texto a{
+    font-size: 21px;
+    font: weight 600px;
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+.texto p{
+    font-size: 1;
+    font-weight: 400px;
+    color: hsl(215, 51%, 70%);
+}
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.ethereum {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethereum img{
+    width: 10px;
+    height: 15px;
+}
+
+.relogio{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.relogio img{
+    width: 14px;
+    height: 14px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: hsl(215, 51%, 70%);
+    gap: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.avatar img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.avatar a{
+    text-decoration: none;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar a:hover{
+    text-decoration:underline;
+    color: lightskyblue;
+}
+
+footer{
+    justify-content: end;
+    color: whitesmoke;
+    padding-top: 35px;
+}
+
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: lightskyblue;
+}

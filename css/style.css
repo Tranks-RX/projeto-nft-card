@@ -1,9 +1,9 @@
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit';
-    margin: ;
+    margin-top: vh;
     /* reset */
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
